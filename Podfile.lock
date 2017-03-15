@@ -1,0 +1,33 @@
+PODS:
+  - CatalogByConvention (2.0.0)
+  - IndefiniteObservable (3.1.0):
+    - IndefiniteObservable/lib (= 3.1.0)
+  - IndefiniteObservable/lib (3.1.0)
+  - pop (1.0.9)
+  - ReactiveMotion (1.0.0):
+    - IndefiniteObservable (~> 3.0)
+    - pop
+  - ReactiveMotionPOP (1.0.0):
+    - ReactiveMotion (~> 1.0)
+
+DEPENDENCIES:
+  - CatalogByConvention
+  - ReactiveMotion (from `../reactive-motion-swift/`)
+  - ReactiveMotionPOP (from `./`)
+
+EXTERNAL SOURCES:
+  ReactiveMotion:
+    :path: "../reactive-motion-swift/"
+  ReactiveMotionPOP:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  CatalogByConvention: be55c2263132e4f9f59299ac8a528ee8715b3275
+  IndefiniteObservable: 2789d61f487d8d37fa2b9c3153cc44d4447ff744
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveMotion: ce310a701dbfaff6522cc58e4df00657bc120158
+  ReactiveMotionPOP: 50b7be0fa08efba89ae40d85899c7ed970c34d63
+
+PODFILE CHECKSUM: 72ee433000de3bd39bde19c8b88728d6fbde92ab
+
+COCOAPODS: 1.2.0
